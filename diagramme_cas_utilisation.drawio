@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T17:43:32.393Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.1.1" etag="UMZoao1Bf_DmnAg032hx" type="github"><diagram id="HCKaQjTJKjhIcWWwgqPD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-04T17:51:56.262Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Ch7nfmPQomHgudmDbN5M" version="20.1.1" type="github">
+  <diagram id="HCKaQjTJKjhIcWWwgqPD" name="Page-1">
+    <mxGraphModel dx="421" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="azTsW7oWTJZ5Q33SqxGL-1" value="Assistant de saisie" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azTsW7oWTJZ5Q33SqxGL-2" value="Gestionnaire administratif" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azTsW7oWTJZ5Q33SqxGL-3" value="Responsable de données&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azTsW7oWTJZ5Q33SqxGL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="azTsW7oWTJZ5Q33SqxGL-5" target="azTsW7oWTJZ5Q33SqxGL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="azTsW7oWTJZ5Q33SqxGL-5" value="Enregistrer les commandes reçus par courrier postal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="40" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="azTsW7oWTJZ5Q33SqxGL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="azTsW7oWTJZ5Q33SqxGL-6" target="azTsW7oWTJZ5Q33SqxGL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="azTsW7oWTJZ5Q33SqxGL-6" value="Traiter les anomalies" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="160" width="151" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="azTsW7oWTJZ5Q33SqxGL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="azTsW7oWTJZ5Q33SqxGL-7" target="azTsW7oWTJZ5Q33SqxGL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="azTsW7oWTJZ5Q33SqxGL-7" value="envoyer les courriers d&#39;anomalies nécessaires" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="250" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="azTsW7oWTJZ5Q33SqxGL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="azTsW7oWTJZ5Q33SqxGL-8" target="azTsW7oWTJZ5Q33SqxGL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="azTsW7oWTJZ5Q33SqxGL-8" value="Mettre à jour le référentiel des individus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1101" y="360" width="149" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
