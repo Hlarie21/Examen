@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T19:16:39.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="aE-yjMMGO_stM8t-ewHT" version="20.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-04T19:24:58.704Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="o3MJ1O0Fg7dFoYvJvtvK" version="20.1.1" type="github" pages="3">
   <diagram id="HCKaQjTJKjhIcWWwgqPD" name="Cas d&#39;utilisation">
-    <mxGraphModel dx="421" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,15 +131,6 @@
         <mxCell id="4hwbvivwykYiAfjobAx7-2" value="Saisir les informations de reglement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="131" y="245" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4hwbvivwykYiAfjobAx7-4" value="lorsque le montant est different du montant attendu" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=10;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="270" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="450" y="270" />
-            </Array>
-            <mxPoint x="425" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4hwbvivwykYiAfjobAx7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;exitX=-0.085;exitY=0.348;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4hwbvivwykYiAfjobAx7-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="413.45" y="299.997619047619" as="sourcePoint" />
@@ -153,13 +144,14 @@
           <mxGeometry x="115" y="276" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4hwbvivwykYiAfjobAx7-7" value="lorsque le montant est different du montant attendu" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=10;" edge="1" parent="1" source="x5Zc0ALL_URKiqpUx0AD-6">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.0648" relative="1" as="geometry">
             <mxPoint x="420" y="300" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="450" y="270" />
               <mxPoint x="450" y="320" />
             </Array>
             <mxPoint x="425" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4hwbvivwykYiAfjobAx7-8" value="Lorsque le chèque n&#39;est pas signé ou la carte est invalide&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
@@ -180,29 +172,54 @@
         </mxCell>
         <mxCell id="4hwbvivwykYiAfjobAx7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="360" as="sourcePoint" />
-            <mxPoint x="421.95238095238074" y="360" as="targetPoint" />
+            <mxPoint x="60" y="404" as="sourcePoint" />
+            <mxPoint x="421.95238095238074" y="404" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="340.45238095238096" y="359.95238095238096" />
-              <mxPoint x="340.45238095238096" y="359.95238095238096" />
+              <mxPoint x="340.45238095238096" y="403.95238095238096" />
+              <mxPoint x="340.45238095238096" y="403.95238095238096" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4hwbvivwykYiAfjobAx7-12" value="Résolution de l&#39;anomalie" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="156" y="336" width="130" height="30" as="geometry" />
+          <mxGeometry x="156" y="380" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4hwbvivwykYiAfjobAx7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;exitX=-0.206;exitY=0.979;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="415.94000000000005" y="390.00000000000006" as="sourcePoint" />
-            <mxPoint x="59.99761904761908" y="390.0476190476191" as="targetPoint" />
+            <mxPoint x="415.94000000000005" y="434.00000000000006" as="sourcePoint" />
+            <mxPoint x="59.99761904761908" y="434.0476190476191" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="341" y="390.05" />
-              <mxPoint x="341" y="390.05" />
+              <mxPoint x="341" y="434.05" />
+              <mxPoint x="341" y="434.05" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4hwbvivwykYiAfjobAx7-14" value="Validation de la commande" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="159" y="366" width="140" height="30" as="geometry" />
+          <mxGeometry x="159" y="410" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xiUtY8F28wGbEzkq7o6m-5" value="lorsqu&#39;il y a trop d&#39;anomalies" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry x="0.6183" y="3" relative="1" as="geometry">
+            <mxPoint x="418.7200000000001" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="419" y="270" />
+              <mxPoint x="447" y="270" />
+              <mxPoint x="447" y="360" />
+            </Array>
+            <mxPoint x="422.02000000000004" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xiUtY8F28wGbEzkq7o6m-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;exitX=-0.206;exitY=0.979;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415.94000000000005" y="360" as="sourcePoint" />
+            <mxPoint x="59.99761904761908" y="360.04761904761904" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="341" y="360.05" />
+              <mxPoint x="341" y="360.05" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xiUtY8F28wGbEzkq7o6m-8" value="commande mise en attente" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="165" y="336" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
